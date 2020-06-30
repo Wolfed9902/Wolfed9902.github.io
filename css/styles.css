@@ -12,6 +12,11 @@ body {
 	color: #515151;
 }
 
+.back-3 {
+	background-color: #E1D8FF;
+	color: #515151;
+}
+
 .ff-main {
 	font-family: Verdana;
 	font-size: 24px;
@@ -69,6 +74,23 @@ p.pos-right {
 	-moz-animation-delay: 2s;
 	-o-animation-delay: 2s;
 	-ms-animation-delay: 2s;
+	
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	-ms-animation-fill-mode:forwards;
+
+}
+
+.fade-in-nodelay {
+	opacity: 0;
+	
+	animation: fadeIn ease 2s;
+	-webkit-animation: fadeIn ease 2s;
+	-moz-animation: fadeIn ease 2s;
+	-o-animation: fadeIn ease 2s;
+	-ms-animation: fadeIn ease 2s;
 	
 	animation-fill-mode:forwards;
 	-webkit-animation-fill-mode:forwards;
