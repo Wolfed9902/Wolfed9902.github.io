@@ -8,9 +8,28 @@
 	background-color: #E1D8FF;
 	color: #515151;
 }
-		
+
+.ff-main {
+	font-family: Verdana;
+	font-size: 24px;
+}
+
+.ff-secondary {
+	font-family: Verdana;
+	font-size: 18px;
+}
+
+p.pos-left {
+	padding-left: 18rem;
+}
+
+p.pos-right {
+	padding-right: 18rem;
+}
+
 .container-title {
-	padding-top: 2rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 		
 .container-block {
@@ -21,27 +40,46 @@
 .card-block {
 	padding: .5rem 1rem;
 	border-left: .25rem solid #606060;
-	font-family: Verdana;
-	font-size: 18px;
 }	
 
-.primary-content {
-	padding-top: 16rem;
-	padding-bottom: 16rem;
+.content-primary {
+	padding-top: 2rem;
+	padding-bottom: 6rem;
+}
+
+.content-sep {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 
 .fade-in {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+	opacity: 0;
+	
+	animation: fadeIn ease 2s;
+	-webkit-animation: fadeIn ease 2s;
+	-moz-animation: fadeIn ease 2s;
+	-o-animation: fadeIn ease 2s;
+	-ms-animation: fadeIn ease 2s;
+  
+	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	-ms-animation-delay: 2s;
+	
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	-ms-animation-fill-mode:forwards;
+
 }
+
 @keyframes fadeIn {
-  0% {
+  from {
     opacity:0;
   }
-  100% {
+  to {
     opacity:1;
   }
 }
@@ -79,4 +117,23 @@
   }
   100% {
     opacity:1;
+  }
+}
+
+div.slide-left {
+  width: 100%;
+  overflow: hidden;
+}
+
+div.slide-left p {
+	animation: slide-left 3s;
+}
+
+div.slide-left h1 {
+	animation: slide-left 3s;
+}
+
+@keyframes slide-left {
+	from { margin-left: 100%; transform: translateX(100%); }
+	to { margin-left: 0%; transform: translateX(0%); }
 }
