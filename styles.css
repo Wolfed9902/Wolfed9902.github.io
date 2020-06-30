@@ -1,0 +1,79 @@
+
+
+.back-1 {
+	color: #515151;
+}
+		
+.back-2 {
+	background-color: #E1D8FF;
+	color: #515151;
+}
+		
+.container-title {
+	padding-top: 2rem;
+}
+		
+.container-block {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+		
+.card-block {
+	padding: .5rem 1rem;
+	border-left: .25rem solid #606060;
+	font-family: Verdana;
+	font-size: 18px;
+}	
+
+
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
