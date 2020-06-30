@@ -1,4 +1,7 @@
 
+body {
+	overflow-x:hidden;
+}
 
 .back-1 {
 	color: #515151;
@@ -120,17 +123,20 @@ p.pos-right {
   }
 }
 
-div.slide-left {
-  width: 100%;
-  overflow: hidden;
-}
-
-div.slide-left p {
-	animation: slide-left 3s;
-}
-
-div.slide-left h1 {
-	animation: slide-left 3s;
+.slide-left {
+	width: 100%;
+	
+	animation: slide-left 2s;
+	-webkit-animation: slide-left 2s;
+	-moz-animation: slide-left 2s;
+	-o-animation: slide-left 2s;
+	-ms-animation: slide-left 2s;
+	
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	-ms-animation-fill-mode:forwards;
 }
 
 @keyframes slide-left {
