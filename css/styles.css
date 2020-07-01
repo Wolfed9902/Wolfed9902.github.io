@@ -12,9 +12,14 @@ body {
 	color: #515151;
 }
 
-.back-3 {
-	background-color: #E1D8FF;
-	color: #515151;
+.entry-title {
+	color: #757575;
+}
+
+.border-work {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #515151;
 }
 
 .ff-main {
@@ -166,16 +171,16 @@ body {
 	to { margin-left: 0%; transform: translateX(0%); }
 }
 
-<!-- Media Queries -->
+/* Media Queries */
 
 @media screen and (max-width: 480px) {
 	
 	.pos-left {
-		padding-left: 0rem;
+		padding-left: 0;
 	}
 
 	.pos-right {
-		padding-right: 0rem;
+		padding-right: 0;
 	}		
 	
 }
