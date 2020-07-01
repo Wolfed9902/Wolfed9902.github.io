@@ -27,11 +27,11 @@ body {
 	font-size: 18px;
 }
 
-p.pos-left {
+.pos-left {
 	padding-left: 18rem;
 }
 
-p.pos-right {
+.pos-right {
 	padding-right: 18rem;
 }
 
@@ -170,11 +170,11 @@ p.pos-right {
 
 @media screen and (max-width: 480px) {
 	
-	p.pos-left {
+	.pos-left {
 		padding-left: 0rem;
 	}
 
-	p.pos-right {
+	.pos-right {
 		padding-right: 0rem;
 	}		
 	
