@@ -66,9 +66,15 @@ body {
 	padding-bottom: 6rem;
 }
 
-.align-rights {
+img.align-rights {
 	position: static;
 	float:left;
+}
+
+img.align-rights-2 {
+	position: static;
+	float:left;
+	padding-left: 8rem;
 }
 
 .fade-in {
