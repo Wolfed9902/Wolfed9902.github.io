@@ -200,7 +200,11 @@ img.align-rights-alt {
 
 	.pos-right {
 		padding-right: 0;
-	}		
+	}
+
+	img.align-rights-alt {
+		padding-left: 0;
+	}
 	
 }
 
