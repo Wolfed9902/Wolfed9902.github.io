@@ -71,11 +71,12 @@ img.align-rights {
 	float:left;
 }
 
-img.align-rights-2 {
+img.align-rights-alt {
 	position: static;
 	float:left;
-	padding-left: 8rem;
+	padding-left: 6rem;
 }
+
 
 .fade-in {
 	opacity: 0;
