@@ -66,6 +66,12 @@ body {
 	padding-bottom: 6rem;
 }
 
+img.responsive {
+	max-width: 100%;
+	height: auto;
+	
+}
+
 img.align-rights {
 	position: static;
 	float:left;
