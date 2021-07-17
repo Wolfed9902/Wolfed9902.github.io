@@ -17,6 +17,10 @@ body {
 	color: #757575;
 }
 
+.banner-seperate {
+	background-color: #e0e0e0;
+}
+
 .border-work {
 	border-style: solid;
 	border-width: 2px;
